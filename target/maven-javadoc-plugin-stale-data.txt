@@ -1,0 +1,47 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/Felipe/Documents/curso android 2025/prueba/ejercicio18/alkewallet/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Felipe/Documents/curso android 2025/prueba/ejercicio18/alkewallet/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'alkewallet 1 API'
+-use
+-version
+-windowtitle
+'alkewallet 1 API'
+cl.alkewallet
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\src\main\java = 1764643275280
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\allclasses-index.html = 1764726355944
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\allpackages-index.html = 1764726355948
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\copy.svg = 1764726355996
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\element-list = 1764726355851
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\help-doc.html = 1764726355987
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\index-all.html = 1764726355975
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\index.html = 1764726355981
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\link.svg = 1764726355998
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\member-search-index.js = 1764726355954
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\module-search-index.js = 1764726355950
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\overview-tree.html = 1764726355921
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\package-search-index.js = 1764726355951
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\script.js = 1764726355993
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\search-page.js = 1764726356006
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\search.html = 1764726355978
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\search.js = 1764726356002
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\stylesheet.css = 1764726355991
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\tag-search-index.js = 1764726355956
+C:\Users\Felipe\Documents\curso android 2025\prueba\ejercicio18\alkewallet\target\reports\apidocs\type-search-index.js = 1764726355953

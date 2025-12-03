@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: cl.alkewallet.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in cl.alkewallet.CuentaTest
+testDepositarRetirar  Time elapsed: 0.035 s  <<< ERROR!
+java.lang.IllegalArgumentException: El monto debe ser positivo
+	at cl.alkewallet.CuentaTest.testDepositarRetirar(CuentaTest.java:41)
+
