@@ -67,15 +67,39 @@ alkewallet/
 
 ---
 
-## ▶ Cómo ejecutar el proyecto
+## 🚀 Instalación y Ejecución
 
-### 1. Compilar
+### Prerrequisitos
 
-```bash
-mvn clean compile
+*   Tener instalado el **Java Development Kit (JDK)** (versión 8 o superior).
 
-2. Ejecutar aplicación
-mvn exec:java -Dexec.mainClass="cl.alkewallet.App"
+### Pasos
 
-🧪 Ejecutar pruebas
-mvn test
+1.  **Clonar el repositorio** (o descargar los archivos):
+    ```bash
+    git clone <url-del-repositorio>
+    ```
+
+2.  **Navegar al directorio del proyecto**:
+    ```bash
+    cd AlkeWallet_Bastion
+    ```
+
+3.  **Compilar el proyecto**:
+    ```bash
+    javac *.java
+    ```
+
+4.  **Ejecutar la aplicación**:
+    ```bash
+    java AlkeWalletApp
+    ```
+
+## 💵 Tasas de Conversión (Referenciales)
+
+El sistema utiliza las siguientes tasas de conversión fijas para la demostración:
+
+*   1 USD = 770 CLP
+*   1 EUR = 900 CLP
+
+*   *Desarrollado para el bootcamp DESARROLLO DE APLICACIONES MÓVILES ANDROID TRAINEE V2.0*
