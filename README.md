@@ -48,3 +48,34 @@ Incluye **menú interactivo por consola** y **pruebas unitarias con JUnit**.
 ---
 
 ## 📂 Estructura del proyecto
+
+
+alkewallet/
+├── src/
+│ ├── main/java/cl/alkewallet/
+│ │ ├── App.java # Menú principal en consola
+│ │ ├── Cuenta.java # Clase modelo
+│ │ ├── Convertidor.java # Interface conversión
+│ │ ├── ConvertidorImplementacion.java
+│ │ ├── TipoMoneda.java # Enum de monedas
+│ │ └── ...
+│ └── test/java/cl/alkewallet/
+│ ├── CuentaTest.java # Test creación de cuenta
+│ └── ConvertidorTest.java # Test conversión de moneda
+└── pom.xml
+
+
+---
+
+## ▶ Cómo ejecutar el proyecto
+
+### 1. Compilar
+
+```bash
+mvn clean compile
+
+2. Ejecutar aplicación
+mvn exec:java -Dexec.mainClass="cl.alkewallet.App"
+
+🧪 Ejecutar pruebas
+mvn test
