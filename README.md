@@ -2,13 +2,13 @@ Grupo Bastión
 
 ALKEWALLET-Entrega Módulo 2
 
-Integrantes
+*Integrantes*
 
-Felipe Martínez
+*    Felipe Martínez
 
-Manuel Damke
+*    Manuel Damke
 
-Eugenio Zúñiga
+*    Eugenio Zúñiga
 
 
 # 💳 AlkeWallet
@@ -39,11 +39,12 @@ Incluye **menú interactivo por consola** y **pruebas unitarias con JUnit**.
 ## 🛠 Tecnologías utilizadas
 
 | Herramienta | Uso |
-|------------|------|
-| Java 17/21 | Desarrollo de la aplicación |
-| Maven | Gestión de dependencias y build |
-| JUnit 5 | Pruebas unitarias |
-| BigDecimal | Manejo de dinero sin errores de precisión |
+|------------ |------|
+| Java 17/21  | Desarrollo de la aplicación |
+| Maven       | Gestión de dependencias y build |
+| JUnit 5     | Pruebas unitarias |
+| JavaDoc     | Documentación del código
+| BigDecimal  | Manejo de dinero sin errores de precisión |
 
 ---
 
@@ -62,6 +63,7 @@ alkewallet/
 │ └── test/java/cl/alkewallet/
 │ ├── CuentaTest.java # Test creación de cuenta
 │ └── ConvertidorTest.java # Test conversión de moneda
+| └── Documentación
 └── pom.xml
 
 
