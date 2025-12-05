@@ -50,7 +50,7 @@ Incluye **menú interactivo por consola** y **pruebas unitarias con JUnit**.
 
 ## 📂 Estructura del proyecto
 
-
+```text
 alkewallet/
 ├── src/
 │ ├── main/java/cl/alkewallet/
@@ -65,7 +65,7 @@ alkewallet/
 │ └── ConvertidorTest.java # Test conversión de moneda
 | └── Documentación
 └── pom.xml
-
+```
 
 ---
 
