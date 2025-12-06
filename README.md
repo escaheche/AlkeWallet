@@ -81,17 +81,22 @@ alkewallet/
 
 2.  **Navegar al directorio del proyecto**:
     ```bash
-    cd alkeWallet
+    cd AlkeWallet
     ```
 
 3.  **Compilar el proyecto**:
     ```bash
-    javac *.java
+    javac App.java
     ```
 
 4.  **Ejecutar la aplicación**:
     ```bash
-    java AlkeWalletApp
+    java App
+    ```
+
+5.  **Menú de la aplicación**:
+    ```bash
+    ![imagen](https://github.com/escaheche/AlkeWallet/imagenes/menu.png)
     ```
 
 ## 💵 Tasas de Conversión (Referenciales)
