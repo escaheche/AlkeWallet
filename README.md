@@ -37,7 +37,7 @@ Incluye **menú interactivo por consola** y **pruebas unitarias con JUnit**.
 
 | Herramienta | Uso |
 |------------ |------|
-| Java 17/21  | Desarrollo de la aplicación |
+| Java  21    | Desarrollo de la aplicación |
 | Maven       | Gestión de dependencias y build |
 | JUnit 5     | Pruebas unitarias |
 | JavaDoc     | Documentación del código
@@ -70,7 +70,7 @@ alkewallet/
 
 ### Prerrequisitos
 
-*   Tener instalado el **Java Development Kit (JDK)** (versión 8 o superior).
+*   Tener instalado el **Java Development Kit (JDK)** (versión 21).
 
 ### Pasos
 
