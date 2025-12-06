@@ -76,7 +76,7 @@ alkewallet/
 
 1.  **Clonar el repositorio** (o descargar los archivos):
     ```bash
-    git clone <url-del-repositorio>
+    git clone https://github.com/escaheche/AlkeWallet.git
     ```
 
 2.  **Navegar al directorio del proyecto**:
