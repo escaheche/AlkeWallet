@@ -95,9 +95,9 @@ alkewallet/
     ```
 
 5.  **Menú de la aplicación**:
-    ```bash
-    ![imagen](https://github.com/escaheche/AlkeWallet/imagenes/menu.png)
-    ```
+    
+    ![imagen](imagenes/menu.png)
+    
 
 ## 💵 Tasas de Conversión (Referenciales)
 
