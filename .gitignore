@@ -1,0 +1,24 @@
+### Vscode ###
+# Configuración del editor de Visual Studio Code y archivos de espacio de trabajo
+
+# Código de Visual Studio
+.vscode/*
+!.vscode/configuraciones.json
+!.vscode/tareas.json
+!.vscode/launch.json
+
+!.vscode/extensiones.json
+!.vscode/*.fragmentos-de-código
+.historia/
+*.vsix
+.ionuro
+
+.vs/
+*.código-espacio de trabajo
+.vscode-prueba
+.vscodeignore
+.vscode/cromo
+
+.vscode-server/
+.vscode/sftp.json
+.vscode/etiquetas

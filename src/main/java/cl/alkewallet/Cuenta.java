@@ -20,7 +20,7 @@ public class Cuenta {
 
         if(titular==null || titular.trim().isEmpty())
             {
-            throw new IllegalArgumentException("El titular no puede vacio");
+            throw new IllegalArgumentException("El titular no puede ser vacio");
         }
         if(moneda==null)
         {

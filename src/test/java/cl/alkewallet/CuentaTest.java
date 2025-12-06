@@ -37,7 +37,7 @@ public class CuentaTest {
         Cuenta cuenta = new Cuenta(titular, moneda);
 
         // Depositar dinero
-        BigDecimal montoDeposito = new BigDecimal("1000.50");
+        BigDecimal montoDeposito = new BigDecimal("800");
         cuenta.depositar(montoDeposito);
         assertEquals(montoDeposito, cuenta.getSaldo(), "El saldo después del depósito no coincide");
 
