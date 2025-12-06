@@ -81,7 +81,7 @@ alkewallet/
 
 2.  **Navegar al directorio del proyecto**:
     ```bash
-    cd AlkeWallet_Bastion
+    cd alkeWallet
     ```
 
 3.  **Compilar el proyecto**:
