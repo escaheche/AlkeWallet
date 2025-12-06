@@ -59,7 +59,8 @@ alkewallet/
 │ └── test/java/cl/alkewallet/
 │ ├── CuentaTest.java # Test creación de cuenta
 │ └── ConvertidorTest.java # Test conversión de moneda
-| └── Documentación
+| 
+├── target/  #Documentación
 └── pom.xml
 ```
 
