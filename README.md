@@ -1,4 +1,14 @@
-Grupo Bastión
+##Falta la descripcion del problema que esta en la plataforma
+
+<img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg">
+
+# Grupo Bastión 
+
+
+
+
+
+
 
 ALKEWALLET-Entrega Módulo 2
 
@@ -10,7 +20,7 @@ ALKEWALLET-Entrega Módulo 2
 
 # 💳 AlkeWallet
 
-![Java](https://img.shields.io/badge/Java-17%2F21-orange?logo=openjdk)
+![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk)
 ![Maven](https://img.shields.io/badge/Maven-Build-red?logo=apachemaven)
 ![JUnit](https://img.shields.io/badge/Tests-JUnit5-brightgreen?logo=junit5)
 ![Status](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
