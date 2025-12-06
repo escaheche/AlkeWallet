@@ -1,5 +1,3 @@
-##Falta la descripcion del problema que esta en la plataforma
-
 <img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg"><img width="80" src="https://m.media-amazon.com/images/I/51wjqI00uQL.jpg">
 <div align="center">
 <h1>Grupo Bastión </h1>
