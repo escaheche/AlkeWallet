@@ -41,7 +41,6 @@ Incluye **menú interactivo por consola** y **pruebas unitarias con JUnit**.
 | Maven       | Gestión de dependencias y build |
 | JUnit 5     | Pruebas unitarias |
 | JavaDoc     | Documentación del código
-| BigDecimal  | Manejo de dinero sin errores de precisión |
 
 ---
 
