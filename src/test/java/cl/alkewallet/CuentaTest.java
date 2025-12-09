@@ -5,9 +5,15 @@ import java.math.BigDecimal;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.Test;
-
+/**
+ * Pruebas unitarias para la clase Cuenta.
+ */
 public class CuentaTest {
-    
+
+
+    /**
+     * Prueba de creación de cuenta.
+     */
     @Test
     public void testcrearCuenta() {
         // Implementar pruebas para la creación de cuentas
@@ -17,7 +23,6 @@ public class CuentaTest {
 
         //Acción
         Cuenta cuenta = new Cuenta(titular, moneda);
-
         //Verificación
         assertNotNull(cuenta,"La cuenta no debe ser null");
         assertEquals(titular, cuenta.getTitular(),"El titular no coincide");
@@ -28,6 +33,10 @@ public class CuentaTest {
 
 
     }
+
+    /**
+     * Prueba de depositar y retirar dinero.
+     */
     @Test
     public void testDepositarRetirar() {
 

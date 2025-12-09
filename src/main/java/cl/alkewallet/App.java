@@ -4,45 +4,23 @@ import java.math.BigDecimal;
 import java.util.Scanner;
 
 /**
- * Nuestro objetivo 📋
-El objetivo de nuestro proyecto "Alke Wallet" es desarrollar una billetera
-digital que permita a los usuarios gestionar sus activos financieros de
-manera segura y conveniente.
-Nuestro objetivo es entregar una aplicación funcional, segura y fácil de
-usar que proporcione a los usuarios una solución confiable para
-administrar sus activos financieros de manera digital.
-
-Requerimientos
-La aplicación "Alke Wallet" deberá cumplir con una serie de requisitos y
-especificaciones técnicas para garantizar su funcionalidad y calidad. A
-continuación, se detallan los requerimientos generales y técnicos:
-
-Requerimientos generales:
-● Administración de fondos: El programa debe permitir crear una
-cuenta, ver su saldo disponible, realizar ingreso y retiro de dinero
-(debe impactar sobre el saldo actual).
-● Conversión de moneda: El programa debe permitir convertir el
-saldo de un tipo de moneda a otra.
-Requerimientos técnicos/específicos:
-● Backend: Java implementando el paradigma orientado a objetos
-para desarrollar y gestionar la lógica del negocio. Utilizar interfaces
-para reutilización de código.
-● Diagramas de clase: Representar en un Diagrama de Clases el
-modelo de clases que da solución a los requerimientos.
-● Pruebas unitarias: Se realizarán pruebas unitarias para garantizar la
-calidad y el correcto funcionamiento de los componentes
-desarrollados.
- *
+ * Clase principal de la aplicación Alke Wallet.
  */
 public class App 
 {
     public static void main( String[] args ){
+
+        /**
+         * Menú interactivo para la gestión de cuentas y conversiones de moneda.
+         */
     Scanner sc = new Scanner(System.in);
         Convertidor converter = new ConvertidorImplementacion();
         Cuenta cuenta = null;
 
         int opcion = -1;
-
+        /**
+         * Bucle principal del menú.
+         */
         while (opcion != 0) {
             System.out.println("================================");
             System.out.println("        ALKE WALLET ");
@@ -55,7 +33,7 @@ public class App
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción: ");
 
-            // controlar si no ingresan un número
+            
             if (!sc.hasNextInt()) {
                 System.out.println("Opción inválida.\n");
                 sc.nextLine(); // limpiar
@@ -63,10 +41,15 @@ public class App
             }
             opcion = sc.nextInt();
             sc.nextLine(); // limpiar salto de línea
-
+        /**
+         * Procesa la opción seleccionada por el usuario.
+         */
             try {
+                /**
+                 * Switch para manejar las opciones del menú.
+                 */
                 switch (opcion) {
-                    case 1:
+                    case 1:// Crear cuenta
                         if (cuenta != null) {
                             System.out.println("Ya existe una cuenta creada para " + cuenta.getTitular());
                             break;
@@ -83,13 +66,13 @@ public class App
                         System.out.println("Cuenta creada correctamente para " + nombre + " en " + monedaInicial);
                         break;
 
-                    case 2:
+                    case 2:// Ver saldo
                         validarCuenta(cuenta);
                         System.out.println("Titular: " + cuenta.getTitular());
                         System.out.println("Saldo: " + cuenta.getSaldo() + " " + cuenta.getMoneda());
                         break;
 
-                    case 3:
+                    case 3:// Ingresar dinero
                         validarCuenta(cuenta);
                         System.out.print("Monto a ingresar: ");
                         BigDecimal montoIngreso = leerBigDecimal(sc);
@@ -98,7 +81,7 @@ public class App
                                 + cuenta.getSaldo() + " " + cuenta.getMoneda());
                         break;
 
-                    case 4:
+                    case 4:// Retirar dinero
                         validarCuenta(cuenta);
                         System.out.print("Monto a retirar: ");
                         BigDecimal montoRetiro = leerBigDecimal(sc);
@@ -107,7 +90,7 @@ public class App
                                 + cuenta.getSaldo() + " " + cuenta.getMoneda());
                         break;
 
-                    case 5:
+                    case 5:// Convertir saldo
                         validarCuenta(cuenta);
                         System.out.println("Convertir a (1=CLP, 2=USD, 3=EUR): ");
                         int opConv = sc.nextInt();
@@ -118,11 +101,11 @@ public class App
                                 + cuenta.getSaldo() + " " + cuenta.getMoneda());
                         break;
 
-                    case 0:
+                    case 0:// Salir
                         System.out.println("Saliendo de Alke Wallet. ¡Hasta luego!");
                         break;
 
-                    default:
+                    default:// Opción inválida
                         System.out.println("Opción no válida.");
                 }
 

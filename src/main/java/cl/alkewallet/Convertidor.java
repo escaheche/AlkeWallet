@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 /**
  * Interfaz para la conversión de monedas.
  */
+@FunctionalInterface
 public interface Convertidor {
 
     /**
@@ -17,11 +18,5 @@ public interface Convertidor {
      */
     BigDecimal convertir(TipoMoneda desde, TipoMoneda hacia, BigDecimal monto);
 
-    /**
-     * Sobrecarga conveniente: primero monto, luego monedas.
-     * Delegamos al método principal para no duplicar lógica.
-     */
-    default BigDecimal convertir(BigDecimal monto, TipoMoneda desde, TipoMoneda hacia) {
-        return convertir(desde, hacia, monto);
-    }
+  
 }

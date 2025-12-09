@@ -1,9 +1,14 @@
 package cl.alkewallet;
 
 import java.math.BigDecimal;
-
+/**
+ * Implementación de la interfaz Convertidor para la conversión de monedas.
+ */
 public class ConvertidorImplementacion implements Convertidor {
 
+    /**
+     * Convierte un monto desde una moneda origen a una moneda destino.
+     */
     @Override
     public BigDecimal convertir(TipoMoneda desde, TipoMoneda hacia, BigDecimal monto) {
 
@@ -23,7 +28,12 @@ public class ConvertidorImplementacion implements Convertidor {
         return monto.multiply(tasa);
     }
 
-    // tus tasas fijas:
+    /**
+     * Obtiene la tasa de cambio entre dos monedas.
+     * @param desde
+     * @param hacia
+     * @return tasa de cambio
+     */
     private double obtenerTasaCambio(TipoMoneda desde, TipoMoneda hacia) {
         if (desde == TipoMoneda.CLP && hacia == TipoMoneda.USD) {
             return 0.0013;

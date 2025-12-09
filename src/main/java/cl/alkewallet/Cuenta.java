@@ -77,7 +77,7 @@ public class Cuenta {
      * @param converter
      */
     public void convertirSaldo(TipoMoneda nuevaMoneda, Convertidor converter) {
-        BigDecimal convertido = converter.convertir(this.saldo, this.moneda, nuevaMoneda);
+        BigDecimal convertido = converter.convertir(this.moneda, nuevaMoneda, this.saldo);
         this.moneda = nuevaMoneda;
         this.saldo = convertido;
     }

@@ -93,7 +93,7 @@ Incluye **menú interactivo por consola** y **pruebas unitarias con JUnit**.
 - Ingresar dinero
 - Retirar dinero con validación de fondos
 - Convertir saldo entre monedas (USD, CLP, EUR…)
-- Manejo económico preciso usando `BigDecimal`
+- Uso de clase `BigDecimal` para mejor precicion en calculos.
 - Arquitectura orientada a objetos
 - Menú interactivo con `Scanner`
 
