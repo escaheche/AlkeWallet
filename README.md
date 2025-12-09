@@ -161,7 +161,7 @@ alkewallet/
 
 5.  **Ejecutar la aplicación**:
     ```bash
-    mvn exec:java -Dexec.mainClass="cl.alkewallet.App"0
+    mvn exec:java -Dexec.mainClass="cl.alkewallet.App"
     ```
 
 6.  **Menú de la aplicación**:
