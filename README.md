@@ -152,15 +152,19 @@ alkewallet/
 
 3.  **Compilar el proyecto**:
     ```bash
-    javac App.java
+    mvn clean package
     ```
-
-4.  **Ejecutar la aplicación**:
+4.  **Ejecutar test**:
     ```bash
-    java App
+    mvn test
     ```
 
-5.  **Menú de la aplicación**:
+5.  **Ejecutar la aplicación**:
+    ```bash
+    mvn exec:java -Dexec.mainClass="cl.alkewallet.App"0
+    ```
+
+6.  **Menú de la aplicación**:
     
     ![imagen](imagenes/menu.png)
     
